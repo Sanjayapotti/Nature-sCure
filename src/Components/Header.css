@@ -1,0 +1,67 @@
+.custom-navbar {
+    padding: 1rem 0;
+    background-color: white !important;
+}
+
+.navbar-logo {
+    height: 80px;
+    width: auto;
+}
+
+.nav-link-custom {
+    color: #faf4f4 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+    color: rgb(223, 184, 13) !important;
+}
+
+/* Button Styling */
+.auth-buttons .btn-primary {
+    background-color: rgb(223, 157, 16);
+    border-color:  rgb(223, 157, 16);
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.auth-buttons .btn-secondary {
+    background-color: rgb(223, 157, 16);
+    border-color: rgb(223, 157, 16);
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.auth-buttons .btn-primary:hover {
+    background-color: rgb(223, 157, 16);
+    border-color: rgb(223, 157, 16);
+    transform: translateY(-1px);
+}
+
+.auth-buttons .btn-outline-primary {
+    color:  rgb(223, 157, 16);
+    border-color:  rgb(223, 157, 16);
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.auth-buttons .btn-outline-primary:hover {
+    background-color:  rgb(223, 157, 16);
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .auth-buttons {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-link-custom {
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+}

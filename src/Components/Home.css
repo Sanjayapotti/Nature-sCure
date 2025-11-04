@@ -1,0 +1,166 @@
+/* Hero Section */
+.hero-section {
+  position: relative;
+  background-color: rgb(139 31 31);
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(139, 31, 31, 0.7), rgba(139, 31, 31, 0.8));
+  z-index: 1;
+}
+
+.hero-section > .overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Section Styles */
+.section-title {
+  color: rgb(139, 31, 31);
+}
+
+.faqs-section {
+  background: linear-gradient(rgb(139 31 31));
+}
+
+.faqs-section .section-title {
+  color: white;
+}
+
+/* Card Styles */
+.benefit-card, .related-card {
+  background: linear-gradient(rgb(139 31 31));
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover, .related-card:hover {
+  transform: translateY(-5px);
+}
+
+.faq-card {
+  background: white;
+  color: rgb(139, 31, 31);
+  transition: transform 0.3s ease;
+}
+
+.faq-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Animations */
+.animate-grow {
+  animation: grow 1s ease-in-out;
+}
+
+.animate-fade {
+  animation: fade 1s ease-in;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Featured Products */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .btn-outline-primary {
+  color: rgb(139 31 31);
+  border-color: rgb(139 31 31);
+}
+
+.product-card .btn-outline-primary:hover {
+  background-color: rgb(139 31 31);
+  color: white;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  background: linear-gradient(rgb(139 31 31));
+}
+
+.newsletter-form .btn-light:hover {
+  background-color: rgb(139 31 31);
+  color: white;
+  border-color: white;
+}
+
+/* Statistics Section */
+.stat-card {
+  padding: 2rem;
+  border-radius: 10px;
+  background: white;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.text-primary {
+  color: rgb(139 31 31) !important;
+}
+
+/* Testimonials */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: rgb(139 31 31);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.7;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.testimonials-section .lead {
+  font-style: italic;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .stat-card {
+    margin-bottom: 1rem;
+  }
+  
+  .product-card {
+    margin-bottom: 1rem;
+  }
+}
