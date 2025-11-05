@@ -153,7 +153,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Organic Herbal Tea</h5>
                   <p className="card-text">Calming blend of natural herbs for relaxation and wellness.</p>
-                  <button className="btn btn-outline-primary">Learn More</button>
+                  {/* <button className="btn btn-outline-primary">Learn More</button> */}
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Essential Oils Set</h5>
                   <p className="card-text">Pure essential oils for aromatherapy and natural healing.</p>
-                  <button className="btn btn-outline-primary">Learn More</button>
+                  {/* <button className="btn btn-outline-primary">Learn More</button> */}
                 </div>
               </div>
             </div>
@@ -183,7 +183,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Herbal Supplements</h5>
                   <p className="card-text">Natural supplements for enhanced well-being and vitality.</p>
-                  <button className="btn btn-outline-primary">Learn More</button>
+                  {/* <button className="btn btn-outline-primary">Learn More</button> */}
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Natural Skincare</h5>
                   <p className="card-text">Organic skincare products for healthy, glowing skin.</p>
-                  <button className="btn btn-outline-primary">Learn More</button>
+                  {/* <button className="btn btn-outline-primary">Learn More</button> */}
                 </div>
               </div>
             </div>
